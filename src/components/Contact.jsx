@@ -43,7 +43,7 @@ const Contact = () => {
         </div>
         {/* END TITLE */}
 
-        <div className="map_wrap">
+        {/* <div className="map_wrap">
           <div className="map">
             <ReactMapGL
               mapStyle={"mapbox://style/mapbox/dark-v9"}
@@ -52,7 +52,7 @@ const Contact = () => {
               onViewportChange={(nextViewport) => setViewport(nextViewport)}
             />
           </div>
-        </div>
+        </div> */}
         {/* MENU WRAP */}
 
         <div className="fields">

@@ -44,17 +44,19 @@ const News = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/news/1.jpg)",
+                    backgroundImage:
+                      "url(assets/img/news/goodGifInvoiceApp.gif)",
                   }}
                 ></div>
               </div>
               {/* END IMAGE */}
               <div className="details">
                 <div className="extra">
-                  <p className="date">
-                    By <a href="#">Alex Watson</a>
+                  <h4> Full Stack Invoice App</h4>
+                  {/* <p className="date">
+                    Full Stack Invoice App
                     <span>05 April 2021</span>
-                  </p>
+                  </p> */}
                 </div>
                 {/* END EXTRA */}
 
@@ -65,8 +67,37 @@ const News = () => {
                   voluptatum deleniti unde fugit obcaecati pariatur nulla
                   sapiente id voluptatibus neque mollitia? Odio, quasi beatae?
                 </h3>
+                <div className="tokyo_tm_button">
+                  <button
+                    style={{
+                      color: "black",
+                      backgroundColor: "white",
+                      border: "1px solid black",
+                      paddingX: "10px",
+                    }}
+                    className="ib-button"
+                    onClick={() =>
+                      window.open("https://github.com/tylerolson3")
+                    }
+                  >
+                    Source Code
+                  </button>
+
+                  <button
+                    style={{ border: "1px solid black" }}
+                    className="ib-button"
+                    onClick={() =>
+                      window.open("https://invoice-tyler.netlify.app")
+                    }
+                  >
+                    See Live
+                  </button>
+                  <p style={{ color: "white" }}>ll</p>
+                  <p style={{ color: "white" }}>ll</p>
+                </div>
                 <div className="tokyo_tm_read_more">
-                  <a onClick={toggleModalOne}>
+                  {/* <a href="#"> */}
+                  <a onClick={toggleModalTwo}>
                     <span>Read More</span>
                   </a>
                 </div>
@@ -205,7 +236,8 @@ const News = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/news/2.jpg)",
+                    backgroundImage:
+                      "url(assets/img/news/goodGifCountries.gif)",
                   }}
                 ></div>
               </div>
@@ -213,10 +245,7 @@ const News = () => {
 
               <div className="details">
                 <div className="extra">
-                  <p className="date">
-                    By <a href="#">Brook Kennedy</a>
-                    <span>22 March 2021</span>
-                  </p>
+                  <h4>Countries API</h4>
                 </div>
                 {/* END EXTRA */}
 
@@ -227,6 +256,34 @@ const News = () => {
                   temporibus eos aperiam adipisci aut corrupti dolorum
                   architecto saepe nesciunt cumque, magnam libero cum.
                 </h3>
+                <div className="tokyo_tm_button">
+                  <button
+                    style={{
+                      color: "black",
+                      backgroundColor: "white",
+                      border: "1px solid black",
+                      paddingX: "10px",
+                    }}
+                    className="ib-button"
+                    onClick={() =>
+                      window.open("https://github.com/tylerolson3")
+                    }
+                  >
+                    Source Code
+                  </button>
+
+                  <button
+                    style={{ border: "1px solid black" }}
+                    className="ib-button"
+                    onClick={() =>
+                      window.open("https://invoice-tyler.netlify.app")
+                    }
+                  >
+                    See Live
+                  </button>
+                  <p style={{ color: "white" }}>ll</p>
+                  <p style={{ color: "white" }}>ll</p>
+                </div>
                 <div className="tokyo_tm_read_more">
                   <a onClick={toggleModalTwo}>
                     <span>Read More</span>
@@ -364,7 +421,7 @@ const News = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/news/3.jpg)",
+                    backgroundImage: "url(assets/img/news/quizzical.png)",
                   }}
                 ></div>
               </div>
@@ -372,15 +429,46 @@ const News = () => {
 
               <div className="details">
                 <div className="extra">
-                  <p className="date">
-                    By <a href="#">Paola Atkins</a>
-                    <span>15 Feb 2021</span>
-                  </p>
+                  <h4>Quizzical Game</h4>
                 </div>
 
                 <h3 className="title" onClick={toggleModalThree}>
-                  Why every photographer should shoot film, even in 2021
+                  Why every photographer should shoot film, even in 2021 Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                  deleniti nostrum voluptas error deserunt, ipsam eius eligendi
+                  libero impedit mollitia. Ut culpa et dicta, qui deleniti
+                  aperiam dolores ab laboriosam!
                 </h3>
+                <div className="tokyo_tm_button">
+                  <button
+                    style={{
+                      color: "black",
+                      backgroundColor: "white",
+                      border: "1px solid black",
+                      paddingX: "10px",
+                    }}
+                    className="ib-button"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/tylerolson3/shopping-cart"
+                      )
+                    }
+                  >
+                    Source Code
+                  </button>
+
+                  <button
+                    style={{ border: "1px solid black" }}
+                    className="ib-button"
+                    onClick={() =>
+                      window.open("https://invoice-tyler.netlify.app")
+                    }
+                  >
+                    See Live
+                  </button>
+                  <p style={{ color: "white" }}>ll</p>
+                  <p style={{ color: "white" }}>ll</p>
+                </div>
                 <div className="tokyo_tm_read_more">
                   <a onClick={toggleModalThree}>
                     <span>Read More</span>
@@ -513,7 +601,7 @@ const News = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/news/4.jpg)",
+                    backgroundImage: "url(assets/img/news/shopping-cart.png)",
                   }}
                 ></div>
               </div>
@@ -521,16 +609,47 @@ const News = () => {
 
               <div className="details">
                 <div className="extra">
-                  <p className="date">
-                    By <a href="#">Kevin Stone</a>
-                    <span>22 Jan 2021</span>
-                  </p>
+                  <h4>Shopping Cart</h4>
                 </div>
                 {/* END EXTRA */}
 
                 <h3 className="title" onClick={toggleModalFour}>
-                  Stay creative in lockdown with these fun photo projects
+                  Stay creative in lockdown with these fun photo projects Lorem
+                  ipsum dolor, sit amet consectetur adipisicing elit. Sed maxime
+                  maiores, tempora, temporibus tempore magni asperiores impedit
+                  quo necessitatibus a dolorem laboriosam debitis? Eum,
+                  distinctio error beatae esse illo delectus!
                 </h3>
+                <div className="tokyo_tm_button">
+                  <button
+                    style={{
+                      color: "black",
+                      backgroundColor: "white",
+                      border: "1px solid black",
+                      paddingX: "10px",
+                    }}
+                    className="ib-button"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/tylerolson3/shopping-cart"
+                      )
+                    }
+                  >
+                    Source Code
+                  </button>
+
+                  <button
+                    style={{ border: "1px solid black" }}
+                    className="ib-button"
+                    onClick={() =>
+                      window.open("https://invoice-tyler.netlify.app")
+                    }
+                  >
+                    See Live
+                  </button>
+                  <p style={{ color: "white" }}>ll</p>
+                  <p style={{ color: "white" }}>ll</p>
+                </div>
                 <div className="tokyo_tm_read_more">
                   <a onClick={toggleModalFour}>
                     <span>Read More</span>

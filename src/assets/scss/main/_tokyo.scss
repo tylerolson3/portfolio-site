@@ -509,8 +509,8 @@ h6 {
   transform: translateY(-5px);
 }
 .social li .svg {
-  width: 17px;
-  height: 17px;
+  width: 40px;
+  height: 40px;
 }
 
 /*---------------------------------------------------*/
@@ -599,6 +599,7 @@ h6 {
 }
 .tokyo_tm_button a,
 .ib-button {
+  border: 1px solid black;
   text-decoration: none;
   color: #fff;
   display: inline-block;
@@ -612,6 +613,7 @@ h6 {
   transition: all 0.3s ease;
 }
 .ib-button {
+  border: 1px solid black;
   font-size: 15px;
   line-height: 15px;
   padding: 19px 40px;
@@ -1572,6 +1574,25 @@ body.modal {
 /*	10) TOKYO MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
+@media (min-width: 1201px) {
+  .menu_content {
+    color: green;
+
+    font-size: 30px;
+    padding-bottom: 25px;
+  }
+
+  .menu ul li:nth-child(3) {
+    border: 2px slid orange;
+    height: 22px;
+  }
+
+  // #hidden-menu-item {
+  //   margin-top: -50px;
+  //   border: "1px solid green";
+  // }
+}
+
 @media (max-width: 1600px) {
   .tokyo_tm_all_wrap .leftpart {
     width: 400px;
@@ -1599,6 +1620,7 @@ body.modal {
     background-color: #fff;
     box-shadow: 0 0 30px rgba(62, 68, 125, 0.08);
   }
+
   .tokyo_tm_all_wrap .leftpart .leftpart_inner {
     width: 100%;
     display: flex;
@@ -1629,7 +1651,7 @@ body.modal {
       display: block;
     }
     .menu_content {
-      display: none;
+      // display: none;
     }
     &:not(:last-child) {
       margin-right: 15px;

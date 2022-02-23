@@ -16,55 +16,57 @@ const HomeLight = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="/">
+                {/* <Link className="navbar-brand" to="/">
                   <img src="/assets/img/logo/dark.png" alt="brand" />
-                </Link>
+                </Link> */}
               </div>
               {/* END LOGO */}
 
               <div className="menu">
                 <ul>
                   <Tab>
-                    <img
+                    {/* <img
                       className="svg"
                       src="/assets/img/svg/home-run.svg"
                       alt="homerun"
-                    />
+                    /> */}
                     <span className="menu_content">Home</span>
                   </Tab>
+                  <p hidden>hey</p>
                   <Tab>
-                    <img
+                    {/* <img
                       className="svg"
                       src="/assets/img/svg/avatar.svg"
                       alt="avatar"
-                    />
+                    /> */}
                     <span className="menu_content">About</span>
                   </Tab>
                   <Tab>
-                    <img
+                    {/* <img
                       hidden
                       className="svg"
                       src="/assets/img/svg/briefcase.svg"
                       alt="briefcase"
-                    />
-                    <span hidden className="menu_content">
+                    /> */}
+                    <span id="hidden-menu-item" hidden className="menu_content">
                       Bad Link
                     </span>
                   </Tab>
                   <Tab>
-                    <img
+                    {/* <img
                       className="svg"
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
-                    />
+                    /> */}
                     <span className="menu_content">Projects</span>
                   </Tab>
+                  {/* <div style={{ color: "white" }}>.</div> */}
                   <Tab>
-                    <img
+                    {/* <img
                       className="svg"
                       src="/assets/img/svg/mail.svg"
                       alt="mail"
-                    />
+                    /> */}
                     <span className="menu_content"> Contact</span>
                   </Tab>
                 </ul>
@@ -86,7 +88,6 @@ const HomeLight = () => {
                     <Home />
                   </div>
                 </TabPanel>
-                {/* END HOME MENU TAB CONTENT */}
 
                 <TabPanel>
                   <div
@@ -97,17 +98,14 @@ const HomeLight = () => {
                     <About />
                   </div>
                 </TabPanel>
-                {/* END ABOUT MENU TAB CONTENT */}
 
-                <TabPanel hidden>
+                <TabPanel>
                   <Portfolio />
                 </TabPanel>
-                {/* END PORTFOLIO MENU TAB CONTENT */}
 
                 <TabPanel>
                   <News />
                 </TabPanel>
-                {/* END NEWS MENU TAB CONTENT */}
 
                 <TabPanel>
                   <div
@@ -118,7 +116,6 @@ const HomeLight = () => {
                     <Contact />
                   </div>
                 </TabPanel>
-                {/* END CONTACT MENU TAB CONTENT */}
               </div>
             </div>
           </div>
