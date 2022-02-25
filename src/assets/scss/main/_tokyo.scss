@@ -130,6 +130,36 @@ h6 {
   box-sizing: border-box; /* Opera/IE 8+ */
 }
 
+.skillz-about {
+  border: 1px solid #0967d2;
+  background-color: transparent;
+  color: #0967d2;
+  font-size: 1.2rem;
+  padding: 0.3rem 0.4rem;
+  margin: 0.4rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0rem;
+  font-weight: 700;
+  font-family: "Mulish";
+}
+
+.skillz {
+  border: 1px solid #0967d2;
+  background-color: white;
+  color: #0967d2;
+  font-size: 1rem;
+  padding: 0.3rem 0.3rem;
+  margin: 0.2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0rem;
+  font-weight: 700;
+  font-family: "Mulish";
+}
+
+.skillz-box {
+  margin: 0.5rem 0;
+}
+
 #preloader {
   position: fixed;
   left: 0;
@@ -552,6 +582,7 @@ h6 {
 .tokyo_tm_about .description .left p {
   margin-bottom: 35px;
   font-style: italic;
+  font-size: 1.4rem;
 }
 .tokyo_tm_about .description .name {
   font-weight: 700;
@@ -1481,6 +1512,7 @@ body.modal {
   border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: transparent;
   font-style: italic;
+  font-size: 1.6rem;
 }
 .tokyo_tm_contact .fields ul li input:focus {
   outline: none;
@@ -1489,9 +1521,10 @@ body.modal {
 .tokyo_tm_contact .fields textarea {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  height: 120px;
+  height: 140px;
   resize: none;
   background-color: transparent;
+  font-size: 1.4rem;
 }
 .tokyo_tm_contact .fields textarea:focus {
   outline: none;
@@ -1576,7 +1609,7 @@ body.modal {
 
 @media (min-width: 1201px) {
   .menu_content {
-    color: green;
+    color: #0967d2;
 
     font-size: 30px;
     padding-bottom: 25px;
@@ -1622,13 +1655,14 @@ body.modal {
   }
 
   .tokyo_tm_all_wrap .leftpart .leftpart_inner {
+    border: 1px solid red;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
     @media screen and (max-width: 420px) {
-      padding: 20px 15px;
+      // padding: 20px 15px;
     }
   }
   .tokyo_tm_all_wrap .leftpart .leftpart_inner .navbar-brand img {
@@ -1651,7 +1685,8 @@ body.modal {
       display: block;
     }
     .menu_content {
-      // display: none;
+      // display: none;'
+      color: #0967d2;
     }
     &:not(:last-child) {
       margin-right: 15px;
@@ -1890,6 +1925,13 @@ body.modal {
   .tokyo_tm_home {
     padding-bottom: 90px;
     min-height: auto;
+  }
+  .about {
+    // border: 1px solid green;
+    margin-bottom: -30px;
+  }
+  .tokyo_tm_about .description_inner {
+    height: 190px;
   }
 }
 

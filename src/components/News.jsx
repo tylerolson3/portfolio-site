@@ -44,29 +44,31 @@ const News = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage:
-                      "url(assets/img/news/goodGifInvoiceApp.gif)",
+                    backgroundImage: "url(assets/img/news/pic-invoice-app.png)",
                   }}
                 ></div>
               </div>
               {/* END IMAGE */}
               <div className="details">
                 <div className="extra">
-                  <h4> Full Stack Invoice App</h4>
-                  {/* <p className="date">
-                    Full Stack Invoice App
-                    <span>05 April 2021</span>
-                  </p> */}
+                  <h4> Full-Stack Invoice App</h4>
                 </div>
                 {/* END EXTRA */}
 
-                <h3 className="title" onClick={toggleModalOne}>
-                  Format releases a new tool that enables direct video hosting
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Tenetur esse quo voluptates labore veniam consequatur,
-                  voluptatum deleniti unde fugit obcaecati pariatur nulla
-                  sapiente id voluptatibus neque mollitia? Odio, quasi beatae?
-                </h3>
+                {/* <h3 className="title" onClick={toggleModalOne}> */}
+                <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
+                  An invoice app to used manage business transactions using CRUD
+                  functionality.
+                </p>
+                <p className="skillz-box">
+                  {" "}
+                  <button className="skillz">React</button>{" "}
+                  <button className="skillz">PostgreSQL</button>{" "}
+                  <button className="skillz">NodeJS</button>{" "}
+                  <button className="skillz">Express</button>{" "}
+                  <button className="skillz">Material UI</button>
+                </p>
+                {/* </h3> */}
                 <div className="tokyo_tm_button">
                   <button
                     style={{
@@ -126,18 +128,19 @@ const News = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/news/1.jpg)",
+                            backgroundImage:
+                              "url(assets/img/news/goodGifInvoiceApp.gif)",
                           }}
                         ></div>
                       </div>
                       {/* END IMAGE */}
                       <div className="details">
-                        <div className="extra">
+                        {/* <div className="extra">
                           <p className="date">
                             By <a href="#">Alex Watson</a>
                             <span>05 April 2021</span>
                           </p>
-                        </div>
+                        </div> */}
                         <h3 className="title">
                           Format releases a new tool that enables direct video
                           hosting
@@ -236,8 +239,8 @@ const News = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage:
-                      "url(assets/img/news/goodGifCountries.gif)",
+                    backgroundImage: "url(assets/img/news/pic-countries.png)",
+                    // "url(assets/img/news/goodGifCountries.gif)",
                   }}
                 ></div>
               </div>
@@ -249,13 +252,18 @@ const News = () => {
                 </div>
                 {/* END EXTRA */}
 
-                <h3 className="title" onClick={toggleModalTwo}>
-                  Sony announced two new full frame cameras with zero fanfare
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae perferendis iste, ipsa incidunt est eaque nemo,
-                  temporibus eos aperiam adipisci aut corrupti dolorum
-                  architecto saepe nesciunt cumque, magnam libero cum.
-                </h3>
+                <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
+                  A website that displays country data from an API and
+                  implements search and filter functionality.
+                </p>
+                <p className="skillz-box">
+                  {" "}
+                  <button className="skillz">React</button>{" "}
+                  <button className="skillz">React Router</button>{" "}
+                  <button className="skillz">Material UI</button>{" "}
+                  <button className="skillz">React Hooks</button>{" "}
+                  <button className="skillz">Javascript (ES6) </button>
+                </p>
                 <div className="tokyo_tm_button">
                   <button
                     style={{
@@ -266,7 +274,9 @@ const News = () => {
                     }}
                     className="ib-button"
                     onClick={() =>
-                      window.open("https://github.com/tylerolson3")
+                      window.open(
+                        "https://github.com/tylerolson3/countries-api"
+                      )
                     }
                   >
                     Source Code
@@ -275,9 +285,7 @@ const News = () => {
                   <button
                     style={{ border: "1px solid black" }}
                     className="ib-button"
-                    onClick={() =>
-                      window.open("https://invoice-tyler.netlify.app")
-                    }
+                    onClick={() => window.open("https://burgerking.com")}
                   >
                     See Live
                   </button>
@@ -312,7 +320,8 @@ const News = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/news/2.jpg)",
+                            backgroundImage:
+                              "url(assets/img/news/goodGifCountries.gif)",
                           }}
                         ></div>
                       </div>
@@ -431,14 +440,19 @@ const News = () => {
                 <div className="extra">
                   <h4>Quizzical Game</h4>
                 </div>
+                <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
+                  A web app gets quiz data from the Open Trivia API and tracks
+                  your score
+                </p>
+                <p className="skillz-box">
+                  {" "}
+                  <button className="skillz">React</button>{" "}
+                  <button className="skillz">React Router</button>{" "}
+                  <button className="skillz">Material UI</button>{" "}
+                  <button className="skillz">React Hooks</button>{" "}
+                  <button className="skillz">Material UI</button>
+                </p>
 
-                <h3 className="title" onClick={toggleModalThree}>
-                  Why every photographer should shoot film, even in 2021 Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                  deleniti nostrum voluptas error deserunt, ipsam eius eligendi
-                  libero impedit mollitia. Ut culpa et dicta, qui deleniti
-                  aperiam dolores ab laboriosam!
-                </h3>
                 <div className="tokyo_tm_button">
                   <button
                     style={{
@@ -449,9 +463,7 @@ const News = () => {
                     }}
                     className="ib-button"
                     onClick={() =>
-                      window.open(
-                        "https://github.com/tylerolson3/shopping-cart"
-                      )
+                      window.open("https://github.com/tylerolson3/Quizzical")
                     }
                   >
                     Source Code
@@ -461,7 +473,7 @@ const News = () => {
                     style={{ border: "1px solid black" }}
                     className="ib-button"
                     onClick={() =>
-                      window.open("https://invoice-tyler.netlify.app")
+                      window.open("https://tylerolson3.github.io/Quizzical/")
                     }
                   >
                     See Live
@@ -497,7 +509,8 @@ const News = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/news/3.jpg)",
+                            backgroundImage:
+                              "url(assets/img/news/quizzical.png)",
                           }}
                         ></div>
                       </div>
@@ -613,13 +626,18 @@ const News = () => {
                 </div>
                 {/* END EXTRA */}
 
-                <h3 className="title" onClick={toggleModalFour}>
-                  Stay creative in lockdown with these fun photo projects Lorem
-                  ipsum dolor, sit amet consectetur adipisicing elit. Sed maxime
-                  maiores, tempora, temporibus tempore magni asperiores impedit
-                  quo necessitatibus a dolorem laboriosam debitis? Eum,
-                  distinctio error beatae esse illo delectus!
-                </h3>
+                <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
+                  A mock e-commerce site with shopping cart functionality and
+                  ability to place an order
+                </p>
+                <p className="skillz-box">
+                  {" "}
+                  <button className="skillz">React</button>{" "}
+                  <button className="skillz">React Router</button>{" "}
+                  <button className="skillz">SCSS</button>{" "}
+                  <button className="skillz">HTML5</button>{" "}
+                  <button className="skillz">Javascript (ES6) </button>
+                </p>
                 <div className="tokyo_tm_button">
                   <button
                     style={{
@@ -677,7 +695,8 @@ const News = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/news/4.jpg)",
+                            backgroundImage:
+                              "url(assets/img/news/shopping-cart.png)",
                           }}
                         ></div>
                       </div>

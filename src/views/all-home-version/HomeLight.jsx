@@ -15,11 +15,11 @@ const HomeLight = () => {
           {/* START LEFT MENU CONTENT */}
           <div className="leftpart">
             <div className="leftpart_inner">
-              <div className="logo">
+              <span>
                 {/* <Link className="navbar-brand" to="/">
                   <img src="/assets/img/logo/dark.png" alt="brand" />
                 </Link> */}
-              </div>
+              </span>
               {/* END LOGO */}
 
               <div className="menu">
@@ -69,6 +69,7 @@ const HomeLight = () => {
                     /> */}
                     <span className="menu_content"> Contact</span>
                   </Tab>
+                  <span></span>
                 </ul>
               </div>
               {/* END MENU */}

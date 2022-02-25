@@ -1,24 +1,23 @@
 import React from "react";
-import { useState } from "react";
-import ReactMapGL from "react-map-gl";
+// import { useState } from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const [viewport, setViewport] = useState({
-    latitude: 40.712776,
-    longitude: -74.005974,
-    zoom: 8,
-  });
+  // const [viewport, setViewport] = useState({
+  //   latitude: 40.712776,
+  //   longitude: -74.005974,
+  //   zoom: 8,
+  // });
 
   function sendEmail(e) {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_zblzgof",
+        "template_7mfewnf",
         e.target,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "user_fHfruklCbK4JQL5M6AQvi"
       )
       .then((res) => {
         console.log(res);
@@ -36,7 +35,6 @@ const Contact = () => {
         <div className="tokyo_tm_title">
           <div className="title_flex">
             <div className="left">
-              <span>Contact</span>
               <h3>Get in Touch</h3>
             </div>
           </div>

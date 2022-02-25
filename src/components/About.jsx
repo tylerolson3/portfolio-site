@@ -14,21 +14,22 @@ const About = () => {
   return (
     <>
       <div className="tokyo_tm_about">
-        <div className="about_image ">
-          <img src="assets/img/slider/1.jpg" alt="about" />
+        <div className="tokyo_tm_title">
+          <div className="title_flex">
+            <div className="left">
+              {/* <span>News</span> */}
+              <h3 className="about">About</h3>
+            </div>
+          </div>
         </div>
-        {/* <div className="o-video">
-          <iframe src="https://www.youtube.com/embed/0yW7w8F2TVA"></iframe>
-        </div> */}
-        {/* END ABOUT IMAGE */}
         <div className="description">
-          <h3 className="name">Adriano Smith &amp; Photographer</h3>
+          <h3 className="name">Tyler Olson</h3>
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am a creative photographer based in New York and happy
-                to travel all over Europe to capture your big day in candid and
-                authentic photos. I will create a lasting memory of the people.
+                I'm a Front End Engineer based in Kansas City. I describe myself
+                as a passionate developer who loves coding, open source, and the
+                web platform
               </p>
               {/* <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -38,52 +39,37 @@ const About = () => {
               {/* END TOKYO BUTTON */}
             </div>
             {/* END LEFT */}
-            <div className="right">
-              <ul>
-                <li>
-                  <p>
-                    <span>Birthday:</span>01.07.1990
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Age:</span>31
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Address:</span>Ave 11, New York, USA
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Email:</span>
-                    <a href="mailto:mail@gmail.com">mail@gmail.com</a>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Phone:</span>
-                    <a href="tel:+770221770505">+77 022 177 05 05</a>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Study:</span>Univercity of Texas
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Freelance:</span>Available
-                  </p>
-                </li>
-              </ul>
-              {/* END UL */}
-            </div>
+            <div className="right"></div>
             {/* END RIGHT */}
           </div>
           {/* END DESCRIPTION INNER */}
         </div>
+        <div className="description">
+          <h3 className="name">My Skills</h3>
+        </div>
+        <div className="about_image ">
+          {/* <img src="assets/img/slider/1.jpg" alt="about" /> */}
+          <p className="skillz-box">
+            {" "}
+            <button className="skillz-about">Javascript</button>{" "}
+            <button className="skillz-about">React</button>{" "}
+            <button className="skillz-about">HTML</button>{" "}
+            <button className="skillz-about">CSS</button>{" "}
+            <button className="skillz-about">Material UI</button>
+            <button className="skillz-about">Figma</button>
+          </p>
+          <p className="skillz-box">
+            <button className="skillz-about">Node.js </button>
+            <button className="skillz-about">Git </button>
+            <button className="skillz-about">PostgreSQL </button>
+            <button className="skillz-about">SQL </button>
+            <button className="skillz-about">MongoDB </button>
+          </p>
+        </div>
+        {/* <div className="o-video">
+          <iframe src="https://www.youtube.com/embed/0yW7w8F2TVA"></iframe>
+        </div> */}
+        {/* END ABOUT IMAGE */}
       </div>
 
       {/* START ABOUT POPUP BOX */}

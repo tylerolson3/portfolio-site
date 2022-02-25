@@ -17,10 +17,13 @@ const Home = () => {
           </div>
           {/* END AVATAR */}
           <div className="details">
-            <h3 className="name">TFrontend Developer</h3>
-            <p className="job">
+            <h3 className="name" style={{ color: "#0967d2" }}>
+              Tyler Olson{" "}
+            </h3>
+            <h3 className="name">FrontEnd Dev</h3>
+            <p className="job" style={{ fontSize: "1.3rem" }}>
               I love exploring and creating, I'm a lifelong learner with a
-              passion for code.
+              passion for code and web development.
             </p>
             {/* END JOB */}
             <Social />
