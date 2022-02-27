@@ -29,7 +29,7 @@ const About = () => {
               <p>
                 I'm a Front End Engineer based in Kansas City. I describe myself
                 as a passionate developer who loves coding, open source, and the
-                web platform
+                web platform.
               </p>
               {/* <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
