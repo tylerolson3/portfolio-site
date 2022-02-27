@@ -1655,7 +1655,6 @@ body.modal {
   }
 
   .tokyo_tm_all_wrap .leftpart .leftpart_inner {
-    border: 1px solid red;
     width: 100%;
     display: flex;
     align-items: center;
@@ -1687,6 +1686,7 @@ body.modal {
     .menu_content {
       // display: none;'
       color: #0967d2;
+      font-weight: 600;
     }
     &:not(:last-child) {
       margin-right: 15px;

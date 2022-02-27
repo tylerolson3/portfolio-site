@@ -39,7 +39,8 @@ const News = () => {
         <ul>
           <li data-aos="fade-right" data-aos-duration="1200">
             <div className="list_inner">
-              <div className="image" onClick={toggleModalOne}>
+              {/* <div className="image" onClick={toggleModalOne}> */}
+              <div className="image" style={{ pointerEvents: "none" }}>
                 <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
                 <div
                   className="main"
@@ -99,9 +100,9 @@ const News = () => {
                 </div>
                 <div className="tokyo_tm_read_more">
                   {/* <a href="#"> */}
-                  <a onClick={toggleModalTwo}>
+                  {/* <a onClick={toggleModalTwo}>
                     <span>Read More</span>
-                  </a>
+                  </a> */}
                 </div>
                 {/* END READ MORE BUTTON */}
               </div>
@@ -234,7 +235,8 @@ const News = () => {
             data-aos-delay="200"
           >
             <div className="list_inner">
-              <div className="image" onClick={toggleModalTwo}>
+              {/* <div className="image" onClick={toggleModalTwo}> */}
+              <div className="image" style={{ pointerEvents: "none" }}>
                 <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
                 <div
                   className="main"
@@ -293,9 +295,9 @@ const News = () => {
                   <p style={{ color: "white" }}>ll</p>
                 </div>
                 <div className="tokyo_tm_read_more">
-                  <a onClick={toggleModalTwo}>
+                  {/* <a onClick={toggleModalTwo}>
                     <span>Read More</span>
-                  </a>
+                  </a> */}
                 </div>
                 {/* END READ MORE BUTTON */}
               </div>
@@ -425,7 +427,8 @@ const News = () => {
             data-aos-delay="300"
           >
             <div className="list_inner">
-              <div className="image" onClick={toggleModalThree}>
+              {/* <div className="image" onClick={toggleModalThree}> */}
+              <div className="image" style={{ pointerEvents: "none" }}>
                 <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
                 <div
                   className="main"
@@ -482,9 +485,9 @@ const News = () => {
                   <p style={{ color: "white" }}>ll</p>
                 </div>
                 <div className="tokyo_tm_read_more">
-                  <a onClick={toggleModalThree}>
+                  {/* <a onClick={toggleModalThree}>
                     <span>Read More</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* END DETAILS */}
@@ -609,7 +612,8 @@ const News = () => {
             data-aos-delay="400"
           >
             <div className="list_inner">
-              <div className="image" onClick={toggleModalFour}>
+              {/* <div className="image" onClick={toggleModalFour}> */}
+              <div className="image" style={{ pointerEvents: "none" }}>
                 <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
                 <div
                   className="main"
@@ -669,9 +673,9 @@ const News = () => {
                   <p style={{ color: "white" }}>ll</p>
                 </div>
                 <div className="tokyo_tm_read_more">
-                  <a onClick={toggleModalFour}>
+                  {/* <a onClick={toggleModalFour}>
                     <span>Read More</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* END DETAILS */}
