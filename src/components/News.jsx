@@ -257,8 +257,8 @@ const News = () => {
                 {/* END EXTRA */}
 
                 <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
-                  A website that displays country data from an API and
-                  implements search and filter functionality.
+                  Displays country data from an API and implements search and
+                  filter functionality.
                 </p>
                 <p className="skillz-box">
                   {" "}
