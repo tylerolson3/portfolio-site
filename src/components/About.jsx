@@ -25,11 +25,12 @@ const About = () => {
         <div className="description">
           <h3 className="name">Tyler Olson</h3>
           <div className="description_inner">
-            <div className="left">
+            <div style={{ width: "100%" }} className="left">
               <p>
-                I'm a Front End Engineer based in Kansas City. I describe myself
-                as a passionate developer who loves coding, open source, and the
-                web platform.
+                Kansas City based Software Engineer with experience building
+                RESTful APIs with an emphasis on maintainability and scale.
+                Focused on the React ecosystem to build all aspects of the user
+                experience and user interface for client-facing pages.
               </p>
               {/* <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -53,17 +54,17 @@ const About = () => {
             {" "}
             <button className="skillz-about">Javascript</button>{" "}
             <button className="skillz-about">React</button>{" "}
-            <button className="skillz-about">HTML</button>{" "}
-            <button className="skillz-about">CSS</button>{" "}
+            <button className="skillz-about">Sass</button>{" "}
             <button className="skillz-about">Material UI</button>
             <button className="skillz-about">Figma</button>
+            <button className="skillz-about">HTML5</button>{" "}
+            <button className="skillz-about">CSS3</button>{" "}
           </p>
           <p className="skillz-box">
             <button className="skillz-about">Node.js </button>
-            <button className="skillz-about">Git </button>
             <button className="skillz-about">PostgreSQL </button>
-            <button className="skillz-about">SQL </button>
             <button className="skillz-about">MongoDB </button>
+            <button className="skillz-about">Git </button>
           </p>
         </div>
         {/* <div className="o-video">

@@ -52,14 +52,17 @@ const News = () => {
               {/* END IMAGE */}
               <div className="details">
                 <div className="extra">
-                  <h4> Full-Stack Invoice App</h4>
+                  <h4 style={{ fontSize: "1.4rem" }}>
+                    {" "}
+                    InvoiceNOW Invoicing App{" "}
+                  </h4>
                 </div>
                 {/* END EXTRA */}
 
                 {/* <h3 className="title" onClick={toggleModalOne}> */}
                 <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
-                  An invoice app to used manage business transactions using CRUD
-                  functionality.
+                  Full-stack applicaton allowing users to store custom invoices
+                  in a database.
                 </p>
                 <p className="skillz-box">
                   {" "}
@@ -80,7 +83,9 @@ const News = () => {
                     }}
                     className="ib-button"
                     onClick={() =>
-                      window.open("https://github.com/tylerolson3")
+                      window.open(
+                        "https://github.com/tylerolson3/invoice-app-fullstack"
+                      )
                     }
                   >
                     Source Code
@@ -250,7 +255,7 @@ const News = () => {
 
               <div className="details">
                 <div className="extra">
-                  <h4>Countries API</h4>
+                  <h4>Countries REST API</h4>
                 </div>
                 {/* END EXTRA */}
 
@@ -264,7 +269,7 @@ const News = () => {
                   <button className="skillz">React Router</button>{" "}
                   <button className="skillz">Material UI</button>{" "}
                   <button className="skillz">React Hooks</button>{" "}
-                  <button className="skillz">Javascript (ES6) </button>
+                  <button className="skillz">Restful API </button>
                 </p>
                 <div className="tokyo_tm_button">
                   <button
@@ -287,7 +292,9 @@ const News = () => {
                   <button
                     style={{ border: "1px solid black" }}
                     className="ib-button"
-                    onClick={() => window.open("https://burgerking.com")}
+                    onClick={() =>
+                      window.open("https://countries-tyler.netlify.app/")
+                    }
                   >
                     See Live
                   </button>
@@ -445,7 +452,7 @@ const News = () => {
                 </div>
                 <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
                   A web app gets quiz data from the Open Trivia API and tracks
-                  your score
+                  your score along with displaying results.
                 </p>
                 <p className="skillz-box">
                   {" "}
@@ -453,7 +460,7 @@ const News = () => {
                   <button className="skillz">React Router</button>{" "}
                   <button className="skillz">Material UI</button>{" "}
                   <button className="skillz">React Hooks</button>{" "}
-                  <button className="skillz">Material UI</button>
+                  <button className="skillz">SCSS</button>{" "}
                 </p>
 
                 <div className="tokyo_tm_button">
@@ -632,7 +639,7 @@ const News = () => {
 
                 <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
                   A mock e-commerce site with shopping cart functionality and
-                  ability to place an order
+                  ability to place an order.
                 </p>
                 <p className="skillz-box">
                   {" "}
@@ -664,7 +671,9 @@ const News = () => {
                     style={{ border: "1px solid black" }}
                     className="ib-button"
                     onClick={() =>
-                      window.open("https://invoice-tyler.netlify.app")
+                      window.open(
+                        "https://tylerolson3.github.io/shopping-cart/"
+                      )
                     }
                   >
                     See Live
