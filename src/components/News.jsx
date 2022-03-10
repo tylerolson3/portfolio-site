@@ -52,10 +52,7 @@ const News = () => {
               {/* END IMAGE */}
               <div className="details">
                 <div className="extra">
-                  <h4 style={{ fontSize: "1.4rem" }}>
-                    {" "}
-                    InvoiceNOW Invoicing App{" "}
-                  </h4>
+                  <h4> InvoiceNOW App </h4>
                 </div>
                 {/* END EXTRA */}
 
@@ -68,7 +65,7 @@ const News = () => {
                   {" "}
                   <button className="skillz">React</button>{" "}
                   <button className="skillz">PostgreSQL</button>{" "}
-                  <button className="skillz">NodeJS</button>{" "}
+                  <button className="skillz">Node.js</button>{" "}
                   <button className="skillz">Express</button>{" "}
                   <button className="skillz">Material UI</button>
                 </p>
@@ -266,7 +263,7 @@ const News = () => {
                 <p className="skillz-box">
                   {" "}
                   <button className="skillz">React</button>{" "}
-                  <button className="skillz">React Router</button>{" "}
+                  {/* <button className="skillz">React Router</button>{" "} */}
                   <button className="skillz">Material UI</button>{" "}
                   <button className="skillz">React Hooks</button>{" "}
                   <button className="skillz">Restful API </button>
@@ -459,7 +456,6 @@ const News = () => {
                   <button className="skillz">React</button>{" "}
                   <button className="skillz">React Router</button>{" "}
                   <button className="skillz">Material UI</button>{" "}
-                  <button className="skillz">React Hooks</button>{" "}
                   <button className="skillz">SCSS</button>{" "}
                 </p>
 
