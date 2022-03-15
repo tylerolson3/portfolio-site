@@ -27,10 +27,10 @@ const About = () => {
           <div className="description_inner">
             <div style={{ width: "100%" }} className="left">
               <p>
-                Kansas City based Software Engineer with experience building
-                RESTful APIs with an emphasis on maintainability and scale.
-                Focused on the React ecosystem to build all aspects of the user
-                experience and user interface for client-facing pages.
+                Software engineer focused on the React.js ecosystem to build all
+                aspects of the UI for client-facing pages. On the backend, I'm
+                building REST APIs using Node.js & PostgreSQL with an emphasis
+                on maintainability and scale.
               </p>
               {/* <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -52,11 +52,10 @@ const About = () => {
           {/* <img src="assets/img/slider/1.jpg" alt="about" /> */}
           <p className="skillz-box">
             {" "}
-            <button className="skillz-about">Javascript</button>{" "}
             <button className="skillz-about">React</button>{" "}
+            <button className="skillz-about">Javascript</button>{" "}
             <button className="skillz-about">Sass</button>{" "}
             <button className="skillz-about">Material UI</button>
-            <button className="skillz-about">Figma</button>
             <button className="skillz-about">HTML5</button>{" "}
             <button className="skillz-about">CSS3</button>{" "}
           </p>

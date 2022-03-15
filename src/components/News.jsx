@@ -66,7 +66,6 @@ const News = () => {
                   <button className="skillz">React</button>{" "}
                   <button className="skillz">PostgreSQL</button>{" "}
                   <button className="skillz">Node.js</button>{" "}
-                  <button className="skillz">Express</button>{" "}
                   <button className="skillz">Material UI</button>
                 </p>
                 {/* </h3> */}
@@ -437,7 +436,7 @@ const News = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/news/quizzical.png)",
+                    backgroundImage: "url(assets/img/news/williams-lawn.png)",
                   }}
                 ></div>
               </div>
@@ -445,18 +444,19 @@ const News = () => {
 
               <div className="details">
                 <div className="extra">
-                  <h4>Quizzical Game</h4>
+                  <h4>Williams Lawn Care</h4>
                 </div>
                 <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
-                  A web app gets quiz data from the Open Trivia API and tracks
-                  your score along with displaying results.
+                  A landing page for a landscaping business with email contact
+                  form functionality.
                 </p>
                 <p className="skillz-box">
                   {" "}
-                  <button className="skillz">React</button>{" "}
-                  <button className="skillz">React Router</button>{" "}
-                  <button className="skillz">Material UI</button>{" "}
+                  <button className="skillz">HTML</button>{" "}
+                  <button className="skillz">CSS</button>{" "}
+                  <button className="skillz">Javascript</button>{" "}
                   <button className="skillz">SCSS</button>{" "}
+                  <button className="skillz">Javascript (ES6)</button>{" "}
                 </p>
 
                 <div className="tokyo_tm_button">
@@ -469,7 +469,9 @@ const News = () => {
                     }}
                     className="ib-button"
                     onClick={() =>
-                      window.open("https://github.com/tylerolson3/Quizzical")
+                      window.open(
+                        "https://github.com/tylerolson3/williams-lawn-care"
+                      )
                     }
                   >
                     Source Code
@@ -479,7 +481,7 @@ const News = () => {
                     style={{ border: "1px solid black" }}
                     className="ib-button"
                     onClick={() =>
-                      window.open("https://tylerolson3.github.io/Quizzical/")
+                      window.open("https://williams-lawn.netlify.app/")
                     }
                   >
                     See Live
@@ -621,7 +623,7 @@ const News = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/news/shopping-cart.png)",
+                    backgroundImage: "url(assets/img/news/quizzical.png)",
                   }}
                 ></div>
               </div>
@@ -629,20 +631,20 @@ const News = () => {
 
               <div className="details">
                 <div className="extra">
-                  <h4>Shopping Cart</h4>
+                  <h4>Quizzical Game</h4>
                 </div>
                 {/* END EXTRA */}
 
                 <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
-                  A mock e-commerce site with shopping cart functionality and
-                  ability to place an order.
+                  A quiz app that uses Open Trivia API and tracks your score
+                  along with displaying results.
                 </p>
                 <p className="skillz-box">
                   {" "}
                   <button className="skillz">React</button>{" "}
                   <button className="skillz">React Router</button>{" "}
-                  <button className="skillz">SCSS</button>{" "}
-                  <button className="skillz">HTML5</button>{" "}
+                  <button className="skillz">Material UI</button>{" "}
+                  <button className="skillz">Rest API</button>{" "}
                   <button className="skillz">Javascript (ES6) </button>
                 </p>
                 <div className="tokyo_tm_button">
@@ -655,9 +657,7 @@ const News = () => {
                     }}
                     className="ib-button"
                     onClick={() =>
-                      window.open(
-                        "https://github.com/tylerolson3/shopping-cart"
-                      )
+                      window.open("https://github.com/tylerolson3/Quizzical")
                     }
                   >
                     Source Code
@@ -667,9 +667,7 @@ const News = () => {
                     style={{ border: "1px solid black" }}
                     className="ib-button"
                     onClick={() =>
-                      window.open(
-                        "https://tylerolson3.github.io/shopping-cart/"
-                      )
+                      window.open("https://tylerolson3.github.io/Quizzical")
                     }
                   >
                     See Live

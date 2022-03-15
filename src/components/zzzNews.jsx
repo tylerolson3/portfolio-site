@@ -39,7 +39,8 @@ const News = () => {
         <ul>
           <li data-aos="fade-right" data-aos-duration="1200">
             <div className="list_inner">
-              <div className="image" onClick={toggleModalOne}>
+              {/* <div className="image" onClick={toggleModalOne}> */}
+              <div className="image" style={{ pointerEvents: "none" }}>
                 <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
                 <div
                   className="main"
@@ -51,20 +52,20 @@ const News = () => {
               {/* END IMAGE */}
               <div className="details">
                 <div className="extra">
-                  <h4> Full-Stack Invoice App</h4>
+                  <h4> InvoiceNOW App </h4>
                 </div>
                 {/* END EXTRA */}
 
                 {/* <h3 className="title" onClick={toggleModalOne}> */}
                 <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
-                  An invoice app to used manage business transactions using CRUD
-                  functionality.
+                  Full-stack applicaton allowing users to store custom invoices
+                  in a database.
                 </p>
                 <p className="skillz-box">
                   {" "}
                   <button className="skillz">React</button>{" "}
                   <button className="skillz">PostgreSQL</button>{" "}
-                  <button className="skillz">NodeJS</button>{" "}
+                  <button className="skillz">Node.js</button>{" "}
                   <button className="skillz">Express</button>{" "}
                   <button className="skillz">Material UI</button>
                 </p>
@@ -79,7 +80,9 @@ const News = () => {
                     }}
                     className="ib-button"
                     onClick={() =>
-                      window.open("https://github.com/tylerolson3")
+                      window.open(
+                        "https://github.com/tylerolson3/invoice-app-fullstack"
+                      )
                     }
                   >
                     Source Code
@@ -99,9 +102,9 @@ const News = () => {
                 </div>
                 <div className="tokyo_tm_read_more">
                   {/* <a href="#"> */}
-                  <a onClick={toggleModalTwo}>
+                  {/* <a onClick={toggleModalTwo}>
                     <span>Read More</span>
-                  </a>
+                  </a> */}
                 </div>
                 {/* END READ MORE BUTTON */}
               </div>
@@ -234,7 +237,8 @@ const News = () => {
             data-aos-delay="200"
           >
             <div className="list_inner">
-              <div className="image" onClick={toggleModalTwo}>
+              {/* <div className="image" onClick={toggleModalTwo}> */}
+              <div className="image" style={{ pointerEvents: "none" }}>
                 <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
                 <div
                   className="main"
@@ -248,21 +252,21 @@ const News = () => {
 
               <div className="details">
                 <div className="extra">
-                  <h4>Countries API</h4>
+                  <h4>Countries REST API</h4>
                 </div>
                 {/* END EXTRA */}
 
                 <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
-                  A website that displays country data from an API and
-                  implements search and filter functionality.
+                  Displays country data from an API and implements search and
+                  filter functionality.
                 </p>
                 <p className="skillz-box">
                   {" "}
                   <button className="skillz">React</button>{" "}
-                  <button className="skillz">React Router</button>{" "}
+                  {/* <button className="skillz">React Router</button>{" "} */}
                   <button className="skillz">Material UI</button>{" "}
                   <button className="skillz">React Hooks</button>{" "}
-                  <button className="skillz">Javascript (ES6) </button>
+                  <button className="skillz">Restful API </button>
                 </p>
                 <div className="tokyo_tm_button">
                   <button
@@ -285,7 +289,9 @@ const News = () => {
                   <button
                     style={{ border: "1px solid black" }}
                     className="ib-button"
-                    onClick={() => window.open("https://burgerking.com")}
+                    onClick={() =>
+                      window.open("https://countries-tyler.netlify.app/")
+                    }
                   >
                     See Live
                   </button>
@@ -293,9 +299,9 @@ const News = () => {
                   <p style={{ color: "white" }}>ll</p>
                 </div>
                 <div className="tokyo_tm_read_more">
-                  <a onClick={toggleModalTwo}>
+                  {/* <a onClick={toggleModalTwo}>
                     <span>Read More</span>
-                  </a>
+                  </a> */}
                 </div>
                 {/* END READ MORE BUTTON */}
               </div>
@@ -425,7 +431,8 @@ const News = () => {
             data-aos-delay="300"
           >
             <div className="list_inner">
-              <div className="image" onClick={toggleModalThree}>
+              {/* <div className="image" onClick={toggleModalThree}> */}
+              <div className="image" style={{ pointerEvents: "none" }}>
                 <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
                 <div
                   className="main"
@@ -442,15 +449,14 @@ const News = () => {
                 </div>
                 <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
                   A web app gets quiz data from the Open Trivia API and tracks
-                  your score
+                  your score along with displaying results.
                 </p>
                 <p className="skillz-box">
                   {" "}
                   <button className="skillz">React</button>{" "}
                   <button className="skillz">React Router</button>{" "}
                   <button className="skillz">Material UI</button>{" "}
-                  <button className="skillz">React Hooks</button>{" "}
-                  <button className="skillz">Material UI</button>
+                  <button className="skillz">SCSS</button>{" "}
                 </p>
 
                 <div className="tokyo_tm_button">
@@ -482,9 +488,9 @@ const News = () => {
                   <p style={{ color: "white" }}>ll</p>
                 </div>
                 <div className="tokyo_tm_read_more">
-                  <a onClick={toggleModalThree}>
+                  {/* <a onClick={toggleModalThree}>
                     <span>Read More</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* END DETAILS */}
@@ -609,7 +615,8 @@ const News = () => {
             data-aos-delay="400"
           >
             <div className="list_inner">
-              <div className="image" onClick={toggleModalFour}>
+              {/* <div className="image" onClick={toggleModalFour}> */}
+              <div className="image" style={{ pointerEvents: "none" }}>
                 <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
                 <div
                   className="main"
@@ -628,7 +635,7 @@ const News = () => {
 
                 <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
                   A mock e-commerce site with shopping cart functionality and
-                  ability to place an order
+                  ability to place an order.
                 </p>
                 <p className="skillz-box">
                   {" "}
@@ -660,7 +667,9 @@ const News = () => {
                     style={{ border: "1px solid black" }}
                     className="ib-button"
                     onClick={() =>
-                      window.open("https://invoice-tyler.netlify.app")
+                      window.open(
+                        "https://tylerolson3.github.io/shopping-cart/"
+                      )
                     }
                   >
                     See Live
@@ -669,9 +678,9 @@ const News = () => {
                   <p style={{ color: "white" }}>ll</p>
                 </div>
                 <div className="tokyo_tm_read_more">
-                  <a onClick={toggleModalFour}>
+                  {/* <a onClick={toggleModalFour}>
                     <span>Read More</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* END DETAILS */}
