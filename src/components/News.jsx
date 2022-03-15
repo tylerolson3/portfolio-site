@@ -57,7 +57,7 @@ const News = () => {
                 {/* END EXTRA */}
 
                 {/* <h3 className="title" onClick={toggleModalOne}> */}
-                <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
+                <p style={{ fontSize: "1.2rem" }}>
                   Full-stack applicaton allowing users to store custom invoices
                   in a database.
                 </p>
@@ -255,7 +255,7 @@ const News = () => {
                 </div>
                 {/* END EXTRA */}
 
-                <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
+                <p style={{ fontSize: "1.2rem" }}>
                   Displays country data from an API and implements search and
                   filter functionality.
                 </p>
@@ -446,7 +446,7 @@ const News = () => {
                 <div className="extra">
                   <h4>Williams Lawn Care</h4>
                 </div>
-                <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
+                <p style={{ fontSize: "1.2rem" }}>
                   A landing page for a landscaping business with email contact
                   form functionality.
                 </p>
@@ -635,7 +635,7 @@ const News = () => {
                 </div>
                 {/* END EXTRA */}
 
-                <p style={{ fontSize: "1.2rem" }} onClick={toggleModalOne}>
+                <p style={{ fontSize: "1.2rem" }}>
                   A quiz app that uses Open Trivia API and tracks your score
                   along with displaying results.
                 </p>
