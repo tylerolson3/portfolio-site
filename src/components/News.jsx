@@ -91,7 +91,7 @@ const News = () => {
                     style={{ border: "1px solid black" }}
                     className="ib-button"
                     onClick={() =>
-                      window.open("https://invoice-tyler.netlify.app")
+                      window.open("https://invoice-now.netlify.app")
                     }
                   >
                     See Live
