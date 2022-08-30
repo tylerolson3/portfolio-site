@@ -1,7 +1,4 @@
-# Tokyo React Personal Portfolio Template
 
-## Description
-Setup Procedure
 ## Project setup
 ```
 npm install
@@ -21,6 +18,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration (vue-cli)
-See [Configuration Reference](https://cli.vuejs.org/config/).
