@@ -52,18 +52,20 @@ const About = () => {
           {/* <img src="assets/img/slider/1.jpg" alt="about" /> */}
           <p className="skillz-box">
             {" "}
-            <button className="skillz-about">React</button>{" "}
             <button className="skillz-about">Javascript</button>{" "}
+            <button className="skillz-about">React</button>{" "}
+            <button className="skillz-about">Gatsby.js</button>{" "}
             <button className="skillz-about">Sass</button>{" "}
             <button className="skillz-about">Material UI</button>
-            <button className="skillz-about">HTML5</button>{" "}
-            <button className="skillz-about">CSS3</button>{" "}
+            <button className="skillz-about">cypress</button>{" "}
+            <button className="skillz-about">Express.js</button>{" "}
           </p>
           <p className="skillz-box">
             <button className="skillz-about">Node.js </button>
             <button className="skillz-about">PostgreSQL </button>
             <button className="skillz-about">MongoDB </button>
-            <button className="skillz-about">Git </button>
+            <button className="skillz-about">Cloud Firestore</button>
+            <button className="skillz-about">Snowflake </button>
           </p>
         </div>
         {/* <div className="o-video">
